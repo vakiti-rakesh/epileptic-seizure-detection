@@ -1,0 +1,104 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+/* Card styling */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Inputs */
+input[type="file"],
+input[type="text"] {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 70%;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Buttons */
+.primary-btn {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  transform: scale(1.05);
+}
+
+/* Metrics Section */
+.metrics {
+  margin-top: 15px;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+/* Prediction Section */
+.prediction-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Hospital Section */
+.hospital-section {
+  margin-top: 20px;
+}
+
+.hospital-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.hospital-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+  opacity: 0.8;
+}

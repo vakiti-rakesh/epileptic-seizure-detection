@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+env/
+epilepsy-web/backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML models
+*.h5
+*.pkl
+*.joblib
+
+# Data
+data/
+*.csv
+
+# OS junk
+__MACOSX/
+.DS_Store
+
+# Env files
+.env
+
+# IDE
+.vscode/
+.idea/
+
+node_modules/
+epilepsy-web/frontend/node_modules/
